@@ -12,12 +12,22 @@ Where possible, the tool will highlight where the statistics are outside the nor
 
 ![IRITopScreenshot](https://raw.githubusercontent.com/maeck70/iritop/master/img/IRITop.png)
 
-## Requirements
-
-Requirements are listed in `requirements.txt` and can be automatically installed via:
-
+## Installation
+1. Clone repository
 ```sh
-pip install -r requirements.txt
+git clone https://github.com/f-ben/iritop.git && cd ./iritop
+```
+2. Install python3 and python3 package manager
+```sh
+sudo apt-get install python3 python3-pip -y
+```
+3. Requirements are listed in `requirements.txt` and can be automatically installed via:
+```sh
+sudo pip3 install -r requirements.txt
+```
+4. Run with default settings:
+```sh
+./iritop.sh
 ```
 
 ## Usage
