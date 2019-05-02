@@ -27,7 +27,7 @@ sudo pip3 install -r requirements.txt
 ```
 4. Run with default settings:
 ```sh
-./iritop.sh
+./iritop.py
 ```
 
 ## Usage
