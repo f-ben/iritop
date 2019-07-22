@@ -19,7 +19,7 @@ git clone https://github.com/f-ben/iritop.git && cd ./iritop
 ```
 2. Install python3 and python3 package manager
 ```sh
-sudo apt-get install python3 python3-pip -y
+sudo apt-get install python3 python3-pip python3-setuptools -y
 ```
 3. Requirements are listed in `requirements.txt` and can be automatically installed via:
 ```sh
